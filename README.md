@@ -19,3 +19,9 @@ node convert-models.js path/to/my/llama-swap/config.yml
 ```
 
 This will produce a `config.ini` file
+
+Run with llama-server:
+
+```bash
+llama-server --models-preset conf.ini --models-max 1
+```
