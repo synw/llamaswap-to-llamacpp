@@ -1,0 +1,14 @@
+{
+    "name": "llamaswap-to-llamacpp",
+    "version": "1.0.0",
+    "description": "Convert YAML models to INI format",
+    "type": "module",
+    "main": "convert-models.js",
+    "private": true,
+    "scripts": {
+        "convert": "node convert-models.js"
+    },
+    "dependencies": {
+        "js-yaml": "^4.1.0"
+    }
+}
